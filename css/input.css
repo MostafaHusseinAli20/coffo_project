@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media (max-width: 1280px) {
+    .banner p {
+        display: none;
+    }
+    .banner .relative {
+        padding: 2rem 1.3rem !important;
+    }
+    .banner h1 {
+        font-size: 70px !important;
+    }
+}
+
+@media (max-width: 1270px) {
+    .banner p {
+        display: block !important;
+    }
+    .banner .relative {
+        padding: 8rem 2rem !important;
+    }
+    .banner h1 {
+        font-size: 6rem !important;
+    } 
+}
+
+@media (max-width: 920px) {
+    .banner p {
+        display: block !important;
+    }
+    .banner .relative {
+        padding: 8rem 2rem !important;
+    }
+    .banner h1 {
+        font-size: 6rem !important;
+    } 
+}
+
+@media (max-width: 720px) {
+    .banner p {
+        display: block !important;
+    }
+    .banner .relative {
+        padding: 8rem 2rem !important;
+    }
+    .banner h1 {
+        font-size: 6rem !important;
+    } 
+}
